@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Samuel Shinyanbola - Home</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.w3-card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.w3-container.w3-gray {
+  margin-top: auto;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-container w3-black" style="background-image: url('https://via.placeholder.com/800x600'); background-size: cover; background-position: center;">
+  <h1 class="w3-text-white">Samuel Shinyanbola</h1>
+  <p class="w3-text-white">A fictional artist with a unique style and vision</p>
+</div>
+
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-col l4 m6 s12">
+    <div class="w3-card">
+      <img src="gallery1.jpg" alt="Gallery 1" style="width:100%">
+      <div class="w3-container">
+        <h4>Gallery</h4>
+        <p>See some of Samuel's amazing artworks</p>
+        <a href="gallery.html" class="w3-button w3-black">View Gallery</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-col l4 m6 s12">
+    <div class="w3-card">
+      <img src="shop1.jpg" alt="Shop 1" style="width:100%">
+      <div class="w3-container">
+        <h4>Shop</h4>
+        <p>Buy prints, posters, and merchandise of Samuel's artworks</p>
+        <a href="shop.html" class="w3-button w3-black">Visit Shop</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-col l4 m6 s12">
+    <div class="w3-card">
+      <img src="comments1.jpg" alt="Comments 1" style="width:100%">
+      <div class="w3-container">
+        <h4>Comments</h4>
+        <p>Share your thoughts and feedback on Samuel's artworks</p>
+        <a href="comments.html" class="w3-button w3-black">Leave a Comment</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-margin-top" style="background-image: url('https://via.placeholder.com/800x600'); background-size: cover; background-position: center;">
+  <p class="w3-text-white">About the Artist</p>
+  <a href="about.html" class="w3-button w3-white">Learn More</a>
+</div>
+
+<div class="w3-container w3-black w3-margin-top">
+  <p class="w3-text-white">© 2022 Samuel Shinyanbola. All rights reserved.</p>
+</div>
+
+<div class="w3-container w3-gray w3-padding">
+  <p>Follow Samuel on social media:</p>
+  <a href="#" class="w3-button w3-circle w3-black"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="w3-button w3-circle w3-black"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-button w3-circle w3-black"><i class="fa fa-instagram"></i></a>
+</div>
+
+</body>
+</html>
