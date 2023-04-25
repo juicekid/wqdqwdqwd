@@ -33,11 +33,14 @@ footer {
   margin: 10px;
   padding: 10px;
 }
+.w3-card.no-hover:hover {
+  transform: none;
+}
 </style>
 </head>
 <body>
 
-<div class="w3-container w3-black" style="background-image: url('https://via.placeholder.com/800x600'); background-size: cover; background-position: center;">
+<div class="w3-container w3-black" style="background-image: url(https://th.bing.com/th/id/OIG.wk6cBcFWfYjt6E.CeE06?pid=ImgGn); background-size: cover; background-position: center;">
   <h1 class="w3-text-white">Samuel Shinyanbola</h1>
   <p class="w3-text-white">A fictional artist with a unique style and vision</p>
 </div>
@@ -78,7 +81,7 @@ footer {
   </div>
 
 <div class="w3-col l3 m6 s12">
-    <div class="w3-card">
+    <div class="w3-card no-hover">
       <img src="comments1.jpg" alt="Comments 1" style="width:100%">
       <div class="w3-container">
         <h4>Comments</h4>
@@ -91,7 +94,7 @@ footer {
 <!-- Add some cards with interesting facts about the artist -->
 <!-- Change the width of the div elements to l6, m12, and s12 -->
 <div class="w3-col l6 m12 s12">
-    <div class="w3-card">
+    <div class="w3-card no-hover">
       <img src="samuel1.jpg" alt="Samuel 1" style="width:100%">
       <div class="w3-container">
         <h4>Who is Samuel Shinyanbola?</h4>
@@ -101,7 +104,7 @@ footer {
   </div>
 
 <div class="w3-col l6 m12 s12">
-    <div class="w3-card">
+    <div class="w3-card no-hover">
       <img src="samuel2.jpg" alt="Samuel 2" style="width:100%">
       <div class="w3-container">
         <h4>What is Samuel's style and vision?</h4>
@@ -111,7 +114,7 @@ footer {
   </div>
 
 <div class="w3-col l6 m12 s12">
-    <div class="w3-card">
+    <div class="w3-card no-hover">
       <img src="samuel3.jpg" alt="Samuel 3" style="width:100%">
       <div class="w3-container">
         <h4>What are some of Samuel's achievements?</h4>
@@ -120,7 +123,7 @@ footer {
     </div>
   </div>
 <div class="w3-col l6 m12 s12">
-    <div class="w3-card">
+    <div class="w3-card no-hover">
       <img src="samuel4.jpg" alt="Samuel 4" style="width:100%">
       <div class="w3-container">
         <h4>What are some of Samuel's hobbies?</h4>
@@ -129,13 +132,31 @@ footer {
     </div>
   </div>
 
+    
+    
+    </div>
+
+    
+    <div class="w3-container">
+  <img src="https://via.placeholder.com/800x600?text=Placeholder+Image" alt="Your image" width=100% height=fill class="w3-image w3-round">
 </div>
+    
+
 
     
     
 
 <footer>
-<p> cla © Samuel Shinyanbola. All rights reserved.</p>
+    <div class="w3-container w3-padding w3-black">
+  <!-- other footer content -->
+  <div class="w3-center">
+    <a href="https://www.facebook.com/your-profile" class="w3-button w3-large w3-circle w3-light-blue"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.twitter.com/your-profile" class="w3-button w3-large w3-circle w3-light-blue"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/your-profile" class="w3-button w3-large w3-circle w3-pink"><i class="fa fa-instagram"></i></a>
+    <!-- add more icons as needed -->
+  </div>
+</div>
+<p> © Samuel Shinyanbola. All rights reserved.</p>
 </footer>
 
 </body>
