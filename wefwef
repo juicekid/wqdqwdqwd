@@ -26,6 +26,13 @@ footer {
   bottom: 0;
   width: 100%;
 }
+/* Add some style to the cards */
+.w3-card {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
 </style>
 </head>
 <body>
@@ -81,7 +88,51 @@ footer {
     </div>
   </div>
 
+<!-- Add some cards with interesting facts about the artist -->
+<!-- Change the width of the div elements to l6, m12, and s12 -->
+<div class="w3-col l6 m12 s12">
+    <div class="w3-card">
+      <img src="samuel1.jpg" alt="Samuel 1" style="width:100%">
+      <div class="w3-container">
+        <h4>Who is Samuel Shinyanbola?</h4>
+        <p>Samuel Shinyanbola is an artist who creates stunning artworks using various media and techniques. He was born in Nigeria and moved to Canada when he was 0 years old. He has a degree in Fine Arts from the University of Tanush and has shown to consistenly impress those who come to view his work.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="w3-col l6 m12 s12">
+    <div class="w3-card">
+      <img src="samuel2.jpg" alt="Samuel 2" style="width:100%">
+      <div class="w3-container">
+        <h4>What is Samuel's style and vision?</h4>
+        <p>Samuel's style is eclectic and experimental. He likes to mix different media and techniques, such as painting, collage, digital art, sculpture, and photography. He draws inspiration from various sources, such as nature, culture, history, and science. His vision is to express his emotions and thoughts through his artworks and to challenge the viewers to think differently about the world.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="w3-col l6 m12 s12">
+    <div class="w3-card">
+      <img src="samuel3.jpg" alt="Samuel 3" style="width:100%">
+      <div class="w3-container">
+        <h4>What are some of Samuel's achievements?</h4>
+        <p>Samuel has won several awards and recognitions for his artworks, such as the Tanush prize, the Ian prize, the Teni prize and the Unashe prize. These awards were given in spite of his  hard work and dedication to become a better artist</p>
+      </div>
+    </div>
+  </div>
+<div class="w3-col l6 m12 s12">
+    <div class="w3-card">
+      <img src="samuel4.jpg" alt="Samuel 4" style="width:100%">
+      <div class="w3-container">
+        <h4>What are some of Samuel's hobbies?</h4>
+        <p>Samuel enjoys many hobbies besides creating artworks. He likes to play chess, read books, watch movies, listen to music, and travel. He is also interested in learning new languages and cultures. He speaks English, Yoruba, French, and Spanish fluently. He is currently learning Mandarin Chinese.</p>
+      </div>
+    </div>
+  </div>
+
 </div>
+
+    
+    
 
 <footer>
 <p> cla © Samuel Shinyanbola. All rights reserved.</p>
